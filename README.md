@@ -20,7 +20,7 @@
 | 📅 개발 기간 | 2026.01.26 ~ 2026.02.12 |
 | 👥 팀 구성 | 3인 팀 프로젝트 |
 | 🔗 GitHub | [https://github.com/HuiKang-Jeon/MSA15_3) |
-| 💡 주요 기능 | 객실 예약, 관리자 페이지, 회원 관리, 카카오페이 결제, AI 챗봇 상담 |
+| 💡 주요 기능 | 객실 예약, 관리자 페이지, 회원 관리, 카카오페이 결제 |
 | 📊 PPT 링크 | (https://docs.google.com/presentation/d/1Y5Kkb03I9_-gr9pW9zMr2519DH7mtc0N/edit?slide=id.p1#slide=id.p1) |
 | 🎬 시연 영상 | https://www.youtube.com/watch?v=3yj7KpHMMHw |
 
@@ -29,16 +29,21 @@
 ## 🛠 기술 스택
 
 ### Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
 
 ### Backend
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/SpringSecurity-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
 ![MyBatis](https://img.shields.io/badge/MyBatis-BF0000?style=for-the-badge)
 ![Apache Tomcat](https://img.shields.io/badge/Tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black)
+![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white)
+![Lombok](https://img.shields.io/badge/Lombok-BC4521?style=for-the-badge)
+
+### Authentication
+![OAuth2](https://img.shields.io/badge/OAuth2-000000?style=for-the-badge&logo=auth0&logoColor=white)
 
 ### Database
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -108,12 +113,6 @@ https://github.com/user-attachments/assets/663db0f1-7291-4319-8b36-2de1e3017cc4
   - 영상 URL을 iframe embed 형식으로 변환하여 스트리밍 구현
   - 반려견 상태(휴식, 식사, 산책 등)를 아이콘과 함께 표시
 
-- **💬 AI 챗봇 상담**
-  - OpenAI API 기반 실시간 상담 챗봇 구현
-  - `/api/chat` API 호출을 통해 사용자 질문에 대한 응답 처리
-  - MySQL DB와 연동하여 객실 정보, 예약 가능 여부 등을 동적으로 제공
-  - Quick Question UI 제공으로 사용자 입력 편의성 향상
-
 <details>
 <summary><b>🎥 모달 기능 시연 영상 보기--</b></summary>
 
@@ -149,9 +148,6 @@ https://github.com/user-attachments/assets/786a7572-3c4a-4c99-ad6a-8c0c5c59878d
 
 - **추가 서비스 선택**
   - 서비스 선택 시 실시간 금액 계산 기능 제공
-
-- **쿠폰 적용 시스템**
-  - 쿠폰 선택 시 할인 금액이 실시간으로 반영
 
 - **반려견 선택 및 예약 완료**
   - 로그인 사용자가 등록한 반려견 선택 가능
@@ -198,7 +194,7 @@ https://github.com/user-attachments/assets/2273dbce-c6e1-4d28-9ff9-b50041d96993
 ### 🛡 나승현 — 인증 · 결제 · 마이페이지
 
 #### 🔐 로그인 / 회원가입 페이지
-- 일반 로그인 및 소셜 로그인 (카카오 / 구글 / 네이버 OAuth2)
+- 일반 로그인 및 소셜 로그인 (카카오)
 - Spring Security 기반 인증 처리
 - JWT 토큰 발급 및 필터 적용
 
