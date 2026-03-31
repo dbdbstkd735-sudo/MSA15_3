@@ -197,14 +197,55 @@ https://github.com/user-attachments/assets/2273dbce-c6e1-4d28-9ff9-b50041d96993
 - 일반 로그인 및 소셜 로그인 (카카오)
 - Spring Security 기반 인증 처리
 
+<details>
+<summary><b>🎥 로그인 페이지 시연 영상 보기--</b></summary>
+
+<br>
+
+https://github.com/user-attachments/assets/b0b6cb9e-848b-4ece-b0af-f1896059d617
+
+</details>
+
 #### 💳 카카오페이 결제 시스템
 - 카카오페이 API 연동 결제 흐름 구현
 - 결제 성공 / 실패 / 취소 / 환불 처리
 
 #### 👤 마이페이지
 - 회원 정보 조회 및 수정
+
+<details>
+<summary><b>🎥 정보 변경 시연 영상 보기--</b></summary>
+
+<br>
+
+https://github.com/user-attachments/assets/d2269432-bc3e-4492-9412-43a57d70f85a
+
+</details>
+
+  
 - 반려견 등록 · 수정 · 삭제 (건강 증명서 파일 업로드 포함)
+
+<details>
+<summary><b>🎥 반려견 등록 시연 영상 보기--</b></summary>
+
+<br>
+
+https://github.com/user-attachments/assets/3748e3d3-1bef-4249-a2dc-4a6a93aac017
+
+</details>
+  
 - 예약 내역 조회 및 상태 관리
+
+<details>
+<summary><b>🎥 예약 내역 조회 및 결제 시연 영상 보기--</b></summary>
+
+<br>
+
+
+https://github.com/user-attachments/assets/13c71863-b767-4b42-9811-4eafe21a92a6
+
+
+</details>
 
 ---
 
