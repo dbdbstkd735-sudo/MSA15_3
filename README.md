@@ -1,4 +1,4 @@
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=dbdbstkd735-sudo&repo=MSA15_3-2)](https://github.com/dbdbstkd735-sudo/MSA15_3-2)
+
 <div align="center">
 
 <img src="https://img.shields.io/badge/🐾_PETHOTEL-FF6B6B?style=for-the-badge&logoColor=white" height="50"/>
